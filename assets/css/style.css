@@ -14,12 +14,20 @@ margin: auto;
 background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/memphis-mini-dark.png")
 
 }
+.textbox{
+background-color: white;
+border: 9px #666666;
+height: 500px;
+width: 960px;
+position: relative;
+top: 100px;
 
-section{
-  background-color: white;
-  width: 960px;
 }
 
+section{
+    width: 960px;
+    background-color: white;
+}
 article{
     background-color: white;
     font-family:  'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -77,9 +85,62 @@ top: 123px;
 
 }
 p {
-    width: 960px;
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 150%;
+    margin: 30px;
+    border-bottom: #666666;
+    border-width: 3px;
+}
+h1{
+    border-top: #666666;
+    font-size: 90%;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin-left: 30px;
+    color: #777777;
+}
+h2{
+    font-size: 90%;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin-left: 30px;
+    color: #777777;
+}
+h3{
+    font-size: 90%;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin-left: 30px;
+    color: #777777;
+
+}
+h4 {
+    background-color: #4aaaa5;
+    color: white;
+    height: 30px;
+    width: 190px;
+
+}
+input {
+    width: 900px;
+    margin-left: 30px;
+}
+textarea{
+    width: 900px;
+    margin-left: 30px;
+    height: 200px;
+}
+button{
+    background-color: #4aaaa5;
+    color: white;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin-left: 30px;
+    height: 33px;   
+    width: 103px;
 }
 
+img{
+    height: 150px;
+    width: 190px;
+}
 footer {
     position: fixed;
     left: 0;
